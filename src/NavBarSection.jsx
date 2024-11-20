@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 function NavBarSection() {
   const navBarlist = [
-    { title: "Timeline", link: "home" },
-    { title: "About", link: "about" },
-    { title: "Friends", link: "friends" },
-    { title: "Images", link: "images" },
+    { title: "Timeline", link: "/home" },
+    { title: "About", link: "/about" },
+    { title: "Friends", link: "/friends" },
+    { title: "Images", link: "/images" },
   ];
   return (
     <div className="navbar-section">

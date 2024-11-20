@@ -14,7 +14,7 @@ function ImageGallery() {
     <div className="photo-gallery">
       <p className="title-heading">Latest Photos</p>
       {imageslist.map((picture, index) => (
-        <img className="latest-fleid-img" src={picture} />
+        <img key={index} className="latest-fleid-img" src={picture} />
       ))}
     </div>
   );

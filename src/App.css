@@ -17,11 +17,13 @@
   padding: 10px;
   border-radius: 5px;
 }
+
 .navbar-section {
   margin-top: 120px;
   display: flex;
   gap: 40px;
 }
+
 .nav-link {
   text-decoration: none;
 }
@@ -41,6 +43,7 @@
   text-align: start;
   height: 600px;
 }
+
 .sibebar-item {
   border-bottom: 2px solid rgb(248, 247, 245);
   padding: 0px;
@@ -52,9 +55,11 @@
   font-weight: 700;
   margin: 0;
 }
+
 .social-feed {
   width: 560px;
 }
+
 .latest-fleid-img {
   width: 300px;
 }
@@ -65,12 +70,13 @@
   border: 2px solid rgb(222, 218, 209);
   padding: 15px;
 }
+
 .profile-section-container {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   margin-top: 30px;
 }
+
 .about-details-container {
   border: 2px solid rgb(242, 237, 237);
   width: 400px;
@@ -78,6 +84,7 @@
   text-align: start;
   height: 700px;
 }
+
 .home-button {
   color: white;
   text-decoration: none;
